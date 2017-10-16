@@ -52,14 +52,12 @@ table {
 
 /* Start of project 2 CSS */
 
-
-body { 
-    color: #9AA898;
+#Menu{
+    background-color: #969A60;
     
+    overflow: hidden
     
 }
-
-
 
 
 
