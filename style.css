@@ -52,13 +52,29 @@ table {
 
 /* Start of project 2 CSS */
 
-#Menu ul li{
+#Menu{
     background-color: #969A60;
+    color:#B4C2BF;
     font-family: serif;
     overflow: hidden;
+    position: :fixed;
+    float: center;
     
 }
 
+#Menu a{
+    float: center;
+    display: block;
+    color: #B4C2BF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#Menu a:hover{
+    background-color: #41511F;
+        
+}
 
 
 
