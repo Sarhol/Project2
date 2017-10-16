@@ -52,10 +52,10 @@ table {
 
 /* Start of project 2 CSS */
 
-#Menu{
+#Menu ul li{
     background-color: #969A60;
-    
-    overflow: hidden
+    font-family: serif;
+    overflow: hidden;
     
 }
 
