@@ -53,13 +53,12 @@ table {
 /* Start of project 2 CSS */
 
 #Menu{
-    background-color: #969A60;
+    background-color: #6A7348;
     color:#B4C2BF;
     font-family: serif;
     overflow: hidden;
     position: :fixed;
-    float: center;
-    
+    float: center; 
 }
 
 #Menu a{
@@ -67,14 +66,28 @@ table {
     display: block;
     color: #B4C2BF;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding: 12px 14px;
 }
 
 #Menu a:hover{
     background-color: #41511F;
-        
+        }
+body {
+    background-color: #9AA898;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
