@@ -67,6 +67,7 @@ table {
     color: #B4C2BF;
     text-align: center;
     padding: 12px 14px;
+    font: 
 }
 
 #Menu a:hover{
@@ -75,6 +76,28 @@ table {
 body {
     background-color: #9AA898;
 }
+
+#Koda {
+    width: 300px;
+    height: 200px;
+    float left;
+}
+#TJ{
+    width 150px;
+    height 150px;
+    float: center;
+}
+
+#Chelsea {
+    width 150px;
+    height 150px;
+    float right;
+}
+
+
+
+
+
 
 
 
