@@ -134,7 +134,30 @@ body {
 /* CSS for resume */
 
 
+.list{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+.list h2{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
 
+.list p{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.list ul {
+    list-style-type: square;
+}
+.list ol {
+    list-style-type: upper-roman;
+}
 
 
 
