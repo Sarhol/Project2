@@ -80,20 +80,27 @@ body {
 /* index css */
 
 #Koda {
-    width: 25%;
-    height: 25%;
-    float left;
+    width: 35%;
+    height: 35%;
+    float: center;
+     display: block;
+    margin: 1.3em auto;
+    
 }
 #TJ{
-    width 25%;
-    height 25%;
-    float: center;
+    width 20%;
+    height 20%;
+    float:center;
+     display: block;
+    margin: 1.3em auto;
 }
 
 #Chelsea {
-    width 25%;
-    height 25%;
-    float right;
+    width 20%;
+    height 20%;
+    float: center;
+     display: block;
+    margin: 1.3em auto;
 }
 
 #about {
