@@ -77,6 +77,8 @@ body {
     background-color: #9AA898;
 }
 
+/* index css */
+
 #Koda {
     width: 25%;
     height: 25%;
@@ -94,6 +96,35 @@ body {
     float right;
 }
 
+#about {
+	left: 50px;
+	top: 50px;
+     text-align: center;
+}
+#about h1{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+#about h2{
+    font-weight: bold;
+    font-size: 20px;
+    padding 20px;
+}
+
+#about p {
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+/* CSS for resume */
 
 
 
