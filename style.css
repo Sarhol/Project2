@@ -78,19 +78,19 @@ body {
 }
 
 #Koda {
-    width: 300px;
-    height: 200px;
+    width: 25%;
+    height: 25%;
     float left;
 }
 #TJ{
-    width 150px;
-    height 150px;
+    width 25%;
+    height 25%;
     float: center;
 }
 
 #Chelsea {
-    width 150px;
-    height 150px;
+    width 25%;
+    height 25%;
     float right;
 }
 
