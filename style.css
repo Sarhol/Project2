@@ -26,66 +26,79 @@ table {
 border-collapse : collapse;
 border-spacing : 0;
 }
+#Menu ul 
+{
+  list-style: none;
+  padding: 0;
+  width: 400px;
+  margin: 0 auto;
+}
+#Menu li {
+  float: left;
+  margin: 0 1.15em;
+}
+
 #Menu {
-background-color : #6A7348;
-color : #B4C2BF;
-font-family : serif;
-overflow : hidden;
+  text-align: center;
+ background-color: #6A7348;
+    color : #B4C2BF;
+   padding-bottom: 50px;
+    padding-top: 20px;
 }
 #Menu a {
-display : block;
-color : #B4C2BF;
-text-align : center;
-padding : 12px 14px;
-}
+    color : #B4C2BF;
+    text-align : center;
+    padding : 12px 14px;
+    }
 #Menu a:hover {
-background-color : #41511F;
-}
+    background-color : #41511F;
+    }
 body {
-background-color : #9AA898;
-}
+    background-color : #9AA898;
+    }
 #Koda {
-width : 35%;
-height : 35%;
-display : block;
-margin : 1.3em auto;
-}
+    width : 35%;
+    height : 35%;
+    display : block;
+    margin : 1.3em auto;
+    }
 #TJ {
-display : block;
-margin : 1.3em auto;
-}
+    display : block;
+    margin : 1.3em auto;
+    }
 #Chelsea {
-display : block;
-margin : 1.3em auto;
-}
+    display : block;
+    margin : 1.3em auto;
+    }
 #about {
-left : 50px;
-top : 50px;
-text-align : center;
-}
+    left : 50px;
+    top : 50px;
+    text-align : center;
+    }
 #about h1 {
-font-weight : bolder;
-font-size : 20px;
-padding : 10px;
-}
+    font-weight : bolder;
+    font-size : 20px;
+    padding : 10px;
+    }
 #about h2 {
-font-weight : bold;
-font-size : 20px;
-}
+    font-weight : bold;
+    font-size : 20px;
+    }
 #about p {
-font-family : sans-serif;
-padding-bottom : 20px;
-padding-left : 20px;
-margin-left : 20px;
-margin-right : 20px;
-margin-bottom : 15px;
-font-size : 15px;
-text-align : left;
-}
+    font-family : sans-serif;
+    padding-bottom : 20px;
+    padding-left : 20px;
+    margin-left : 20px;
+    margin-right : 20px;
+    margin-bottom : 15px;
+    font-size : 15px;
+    text-align : left;
+    }
 .list {
 width : 30%;
 padding : 20px;
 margin : 20px;
+text-align : center;
 }
 .list h2 {
 font-weight : bolder;
