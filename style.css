@@ -26,6 +26,29 @@ table {
 border-collapse : collapse;
 border-spacing : 0;
 }
+*   {box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.row2:after {
+     content: "";
+    display: table;
+    clear: both;
+}
+
 #Menu ul 
 {
   list-style: none;
@@ -55,20 +78,24 @@ border-spacing : 0;
     }
 body {
     background-color : #9AA898;
+    margin:0;
     }
 #Koda {
-    width : 35%;
-    height : 35%;
-    display : block;
+     width: 300px;
+    height: auto;
     margin : 1.3em auto;
     }
 #TJ {
     display : block;
     margin : 1.3em auto;
+     width: 300px;
+    height: auto;
     }
 #Chelsea {
     display : block;
     margin : 1.3em auto;
+     width: 300px; 
+    height: auto;
     }
 #about {
     left : 50px;
@@ -95,21 +122,21 @@ body {
     text-align : left;
     }
 .list {
-width : 30%;
-padding : 20px;
-margin : 20px;
-text-align : center;
-}
+    width : 30%;
+    padding : 20px;
+    margin : 20px;
+    text-align : center;
+    }
 .list h2 {
-font-weight : bolder;
-font-size : 30px;
-text-align : center;
-}
+    font-weight : bolder;
+    font-size : 30px;
+    text-align : center;
+    }
 .list h2 {
-font-weight : bold;
-font-size : 25px;
-text-align : center;
-}
+    font-weight : bold;
+    font-size : 25px;
+    text-align : center;
+    }
 .list p {
 font-weight : 500;
 font-size : 20px;
@@ -131,6 +158,15 @@ font-size : 15px;
 #recipe h1 {
 font-weight : 800;
 font-size : 20px;
+}
+#temblique{
+    float:right;
+    position: relative;
+    top: -400px;
+    margin-right: 150px;
+    border-style:outset;
+    border-width: 5px;
+    border-color: darkkhaki;
 }
 #Resume h2 {
 font-weight : bold;
@@ -171,7 +207,6 @@ margin : 20px;
 .skilllist ul {
 list-style-type : square;
 }
-
 
 
 
